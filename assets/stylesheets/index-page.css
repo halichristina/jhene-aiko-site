@@ -3,6 +3,10 @@
  */
 
 /* Links */
+body {
+  font-family: sans-serif;
+  
+}
 a,
 a:focus,
 a:hover {
