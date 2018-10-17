@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <link rel="stylesheet" href="index-page.css">
+  <meta charset="UTF-8">
+<meta name="description" content="HTML5 CSS3 Final Project">
+<meta name="keywords" content="HTML,CSS,JavaScript,Jhene Aiko">
+<meta name="author" content="Hali Osborne">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jhene Aiko</title>
-  <link href ="./assets/stylesheets/index-page.css" rel="stylesheet"/>
-
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/index-page.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/index=page.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" /> -->
 </head>
-<body>
-  <h1>This is my Advanced CSS file</h1>
 
-  <!-- border radius what nots -->
+<body style="background-color:black;text-align:center">
 
-  <section>
-      <div class="border-radius-box generic-border-radius"></div>
-      <div class="border-radius-box center-content">
-          Vertical centered content
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#discography">Discography</a>
+    <a href="#media">Media</a>
+    <a href="#merch">Merchandise</a>
+    <a href="tourdates">Tour Dates</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+    </body>
+
+<!-- <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#discography">Discography</a>
+  <a href="#media">Media</a>
+  <a href="#merch">Merchandise</a>
+  <a href="tourdates">Tour Dates</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> -->
+
+
+
       </div>
-  </section>
-<!-- box shadows -->
-  <section>
-      <div class="box"></div>
-      <div class="box half-transparency">
-          <div class="inner-box"></div>
-      </div>
-  </section>
+    </div>
+  </div>
+  <div class="video-overlay">
+    <img class="home-logo animate-fader" src="./assets/images/logos/header_logo_white.png" alt="Jhene Aiko Logo"/>
+    <video class="video-container" autoplay loop preload="none" poster="./assets/images/backgrounds/homepageJhene-Aiko-wwy.jpg">
+      <source src="./assets/images/home/home.webm" type="video/webm"></source>
+      <source src="./assets/images/home/home.mp4" type="video/mp4"></source>
+    </video>
+  </div>
 </body>
+
 </html>

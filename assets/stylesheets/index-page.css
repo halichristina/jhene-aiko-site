@@ -1,61 +1,80 @@
-html {
-  background: url(../images/kittens-cute.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+* {
+  box-sizing: border-box;
 }
 
-body {
-  background: rgba(240,240,240,.5);
-  padding-bottom: 100px;
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000;
+    overflow: hidden;
 }
 
-  .border-radius-box {
-    width: 250px;
-    height: 250px;
-    background-color: pink;
-    margin: 10px auto;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    display: run-in;
+    color: #f2f2f2;
     text-align: center;
-  }
+    padding: 25px 45px;
+    text-decoration: none;
+    font-size: 20px;
+}
 
-  .generic-border-radius{
-    border-radius: 15px;
-  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
-  .center-content {
-    display: table-cell;
-    height: 250px;
-    width: 250px;
-    vertical-align: middle;
-    /* line-height: 250px; */
-  }
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
-  .box {
-    width:150px;
-    height:150px;
-    background: red;
-    margin: 15px auto;
-    box-shadow: 10px 10px 65px 0px rgba(255,0,0,0.4);
-    /* transition: background .5s ease-in-out; */
-    transition: all .5s ease-in-out;
-  }
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
 
-.box.half-transparency {
-  background: rgba(0,255,255,.5)
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
   position: relative;
-  z-index: 1;
+  margin: auto;
+  padding: 0 20px;
 }
 
-/* .box.half-transparency > . inner-box {} */
-.box.half-transparency .inner-box {
-  width: 100px;
-  height: 100px;
-  background: rgba(0,0,0, .5);
-}
 
-.box:hover {
-  width: 200px;
-  height: 200px;
-  background:yellow;
+/* .header {
+  width: 100%;
+  height: 10px;
+  padding: 0 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(33, 33, 33, 0.5);
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 35px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.75);
+  z-index: 10;
+} */
+
+
+.logo > a {
+  display: inline-block;
+  height: 50%;
+  line-height: 20px;
+  color: #f2f2f2;
+  font-size: 12px;
 }
