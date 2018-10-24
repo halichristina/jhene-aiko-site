@@ -49,11 +49,10 @@ html, body {
 
 
 .container{
-  position: relative;
+  position: inline;
   margin: auto;
   padding: 0 20px;
 }
-
 
 .logo > a {
   display: inline-block;
@@ -63,17 +62,13 @@ html, body {
   font-size: 12px;
 }
 
-.discography
-.column {
-    float: left;
-    width: 400px;
-    padding: 10px;
-    height:900px;
+.container1 {
+  display: inline-flex;
+  flex-flow: row nowrap; /* Align on the same line */
+  justify-content: space-between; /* Equal margin between the child elements */
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+mark.green {
+  color: #32CD32;
+  background: none;
 }
