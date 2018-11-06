@@ -97,6 +97,39 @@
     background-color: #666;
      color: white;
   }
+
+  /* Container needed to position the button. Adjust the width as needed */
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: small;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .container .btn:hover {
+    background-color: black;
+  }
+
   </style>
 
 
@@ -142,9 +175,11 @@
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
+
     <div class="column shirts">
       <div class="content">
         <img src="./assets/images/jhene-merch/shirt-1.png" alt="T-shirt" style="width:100%">
+        <button class="btn">Sold Out</button>
         <h4>T-shirt</h4>
         <p>Black</p>
       </div>
@@ -152,6 +187,7 @@
     <div class="column shirts">
       <div class="content">
         <img src="./assets/images/jhene-merch/shirt-2.png" alt="T-shirt" style="width:100%">
+        <button class="btn">Sold Out</button>
         <h4>T-shirt</h4>
         <p>Lime Green</p>
       </div>
@@ -159,6 +195,7 @@
     <div class="column shirts">
       <div class="content">
         <img src="./assets/images/jhene-merch/shirt-3.png" alt="T-shirt" style="width:100.59%">
+        <button class="btn">Sold Out</button>
         <h4>T-shirt</h4>
         <p>White</p>
       </div>
@@ -168,6 +205,7 @@
     <div class="column pants">
       <div class="content">
         <img src="./assets/images/jhene-merch/pants-1.png" alt="Pants" style="width:80%">
+        <button class="btn">Sold Out</button>
         <h4>Sweatpants</h4>
         <p>White</p>
       </div>
@@ -175,6 +213,7 @@
     <div class="column pants">
       <div class="content">
         <img src="./assets/images/jhene-merch/pants-2.png" alt="Pants" style="width:80%">
+        <button class="btn">Sold Out</button>
         <h4>Sweatpants</h4>
         <p>Black</p>
       </div>
@@ -183,6 +222,7 @@
     <div class="column sweaters">
       <div class="content">
         <img src="./assets/images/jhene-merch/sweater-1.png" alt="Sweatshirt" style="width:97%">
+        <button class="btn">Sold Out</button>
         <h4>Hoodie Sweatshirt</h4>
         <p>White</p>
       </div>
@@ -190,6 +230,7 @@
     <div class="column sweaters">
       <div class="content">
         <img src="./assets/images/jhene-merch/sweater-2.png" alt="Sweater" style="width:100%">
+        <button class="btn">Sold Out</button>
         <h4>Pullover Sweater</h4>
         <p>Black</p>
       </div>
@@ -197,6 +238,7 @@
     <div class="column sweaters">
       <div class="content">
         <img src="./assets/images/jhene-merch/sweater-3.png" alt="Sweatshirt" style="width:97%">
+        <button class="btn">Sold Out</button>
         <h4>Hoodie Sweatshirt</h4>
         <p>Lime Green</p>
       </div>
@@ -204,6 +246,7 @@
     <div class="column accessories">
       <div class="content">
         <img src="./assets/images/jhene-merch/accessories-2.png" alt="Accessory" style="width:100%">
+        <button class="btn">Sold Out</button>
         <h4>Hat</h4>
         <p>Lime Green</p>
       </div>
@@ -211,6 +254,7 @@
     <div class="column accessories">
       <div class="content">
         <img src="./assets/images/jhene-merch/accessories-4.png" alt="Accessory" style="width:100%">
+        <button class="btn">Sold Out</button>
         <h4>Backpack</h4>
         <p>Pink</p>
       </div>
@@ -218,6 +262,7 @@
     <div class="column accessories">
       <div class="content">
         <img src="./assets/images/jhene-merch/accessories.png" alt="Accessory" style="width:100%">
+        <button class="btn">Sold Out</button>
         <h4>Hat</h4>
         <p>Black</p>
       </div>
